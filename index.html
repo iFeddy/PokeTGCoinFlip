@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/app.css" />
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/audio.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <title>PokeCoinFlip</title>
+</head>
+
+<body>
+    <div class="app">
+        <div class="adremove">
+            <img src="img/star.png"><span class="translate">Remove Adversiment</span>
+        </div>
+
+        <div class="moreapps">
+            <img src="img/app.png"><span class="translate">More Apps</span>
+        </div>
+
+        <div class="clear"></div>
+
+        <div id="coin" class="flipCoin">
+            <div class="side-a"></div>
+            <div class="side-b"></div>
+        </div>
+
+        <div class="changeCoin"><img src="img/fight.png"></div>
+
+        <div class="status">
+            <h1>Start</h1>
+            <p>Touch the Coin to Flip</p>
+            <table>
+                <tr>
+                    <td class="headsInfo">Heads</td>
+                    <td id="amountHeads" class="center">-</td>
+                </tr>
+
+                <tr>
+                    <td class="tailsInfo">Tails</td>
+                    <td id="amountTails" class="center">-</td>
+                </tr>
+
+            </table>
+        </div>
+    </div>
+    <script type="text/javascript" charset="utf-8" src="cordova.js"></script>
+    <script type="text/javascript" src="js/onDeviceReady.js" defer></script>
+    <script type="text/javascript" src="js/app.js"></script>
+</body>
+
+</html>
